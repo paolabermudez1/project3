@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.city-header {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Nyc_Skyline_%28138268933%29.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.city-header h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.float-right {
+    float: right;
+    width: 220px;
+    margin: 10px 0 10px 20px;
+    border-radius: 10px;
+}
+
+.float-left {
+    float: left;
+    width: 220px;
+    margin: 10px 20px 10px 0;
+    border-radius: 10px;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+h3, h4, h5 {
+    color: #003366;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600; 
+}
+
